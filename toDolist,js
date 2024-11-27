@@ -1,0 +1,8 @@
+function toDolist(){
+let to_DoList=["planning","initiation","browsing","selecting slides","preparing","Presenting"];
+to_DoList.unshift("Searching")
+console.log(to_DoList);
+to_DoList.pop("Presenting");
+console.log(to_DoList);
+}
+toDolist();
